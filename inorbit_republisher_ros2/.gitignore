@@ -1,0 +1,8 @@
+# Python package specific
+__pycache__/
+*.egg-info/
+
+# Package specific build artifacts
+build/
+install/
+log/

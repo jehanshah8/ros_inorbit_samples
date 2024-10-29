@@ -1,0 +1,14 @@
+republishers:
+  - topic: "/test/message"
+    msg_type: "std_msgs/String"
+    mappings:
+      - field: "data"
+        out:
+          topic: "/inorbit/custom_data"
+          key: "test_message"
+
+static_publishers:
+  - out:
+      topic: "/inorbit/custom_data"
+      key: "example_version"
+    value: "1.0.0"

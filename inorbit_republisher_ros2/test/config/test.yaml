@@ -1,0 +1,8 @@
+republishers:
+  - topic: "/test_topic"
+    msg_type: "std_msgs/String"
+    mappings:
+      - field: "data"
+        out:
+          topic: "/inorbit/custom_data"
+          key: "test_key" 
